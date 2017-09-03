@@ -1,0 +1,26 @@
+/* Master styles */
+h1 {
+  color: #444;
+  font-size: 2em;
+}
+
+h2 {
+  color: #888;
+}
+
+body {
+  margin: 2em;
+}
+tr:nth-child(odd) {
+  background-color: #eee;
+}
+td, th {
+  padding: 10px 20px;
+}
+th {
+  background-color: #666;
+  color: white;
+}
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,10 @@
+th {
+  background-color: darkred;
+}
+td {
+  cursor: pointer;
+}
+.selected {
+  background-color: #888888;
+  color: #FFF;
+}
