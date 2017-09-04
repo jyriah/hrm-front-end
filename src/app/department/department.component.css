@@ -1,10 +1,21 @@
 th {
-  background-color: darkred;
+  background-color: #aaaaaa;
+  color: #d33173;
 }
 td {
   cursor: pointer;
 }
 .selected {
-  background-color: #888888;
-  color: #FFF;
+  background-color: #999999;
+  color: #ffffff;
+  border-bottom: 1em solid #d33173;
+}
+.sub-title {
+  text-transform: uppercase;
+  font-size: 1.4em;
+  font-weight: 700;
+  padding: 10px 0;
+  text-align: center;
+  background-color: #661637;
+  color: #ffffff;
 }

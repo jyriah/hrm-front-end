@@ -10,6 +10,7 @@ import {Department} from './department';
 export class DepartmentComponent implements OnInit {
   departments: Department[];
   selectedDepartment: Department;
+  title: string = 'Osakonnad';
 
   constructor(private departmentService: DepartmentService) { }
 

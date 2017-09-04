@@ -1,2 +1,7 @@
-<h2>{{ title }}</h2>
-<app-department></app-department>
+<h1>{{ title }}</h1>
+<nav>
+  <a routerLink="/departments" routerLinkActive="active">Osakonnad</a>
+  <a routerLink="/employees" routerLinkActive="active">Töötajad</a>
+  <a routerLink="/positions" routerLinkActive="active">Ametid</a>
+</nav>
+<router-outlet></router-outlet>
